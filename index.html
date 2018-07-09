@@ -2,11 +2,30 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
     <meta charset="utf-8">
     <title>Weclome to the test</title>
   </head>
   <body>
     <h1>It's time to test this</h1>
     <p> Beep!Come one! </p>
+    <p id = "imageItem">
+
+    </p>
+
   </body>
+
+  <script>
+  var i = 0;
+  var picName;
+  var fillHTML;
+
+  for( i=1; i <3; i++) {
+    picName = "sheeh0" + i + ".jpg";
+    fillHTML += '<img src="../pictures/' + picName + '" alt="This is pic ' +i + '"><br>';
+
+  }
+  document.getElementById("imageItem").innerHTML = fillHTML;
+  </script>
+
 </html>
