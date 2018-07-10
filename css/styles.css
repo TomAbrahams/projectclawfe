@@ -2,3 +2,9 @@ h1 {
   background-color: lightblue;
   align-content: center;
 }
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 50px;
+
+}

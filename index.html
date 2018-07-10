@@ -17,12 +17,12 @@
 
   <script>
   var i = 0;
-  var picName;
-  var fillHTML;
+  var picName="";
+  var fillHTML="";
 
   for( i=1; i <3; i++) {
     picName = "sheeh0" + i + ".jpg";
-    fillHTML += '<img src="../pictures/' + picName + '" alt="This is pic ' +i + '"><br>';
+    fillHTML += '<img src="../pictures/' + picName + '" alt="This is pic ' +i + '" height="190" length="190"><br>';
 
   }
   document.getElementById("imageItem").innerHTML = fillHTML;
